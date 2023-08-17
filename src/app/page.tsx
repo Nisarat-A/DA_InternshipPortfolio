@@ -3,16 +3,18 @@ import img_noey from './images/img1.jpg'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="mb-2 font-mono text-4xl text-gray-100 md:text-6xl">
-        hi, I&apos;m <br className="block md:hidden" />
-        <span className="relative">
-          <span className="h-20 pt-2 overflow-x-hidden whitespace-nowrap text-brand-accent">
-            vanntile <span className="text-3xl md:text-5xl">👋</span>
-          </span>
-          <span className="{`${styles.cursor} absolute -bottom-0 left-0 -top-1 inline-block bg-gray-900 w-full animate-type will-change`}"></span>
+      <h1 className="mb-1 font-mono text-4xl text-gray-100 md:text-6xl">
+        hi, I'm <br className="block md:hidden" />
+        <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform  text-yellow-100 ">
+          Nisarat
         </span>
+        <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
       </h1>
+      <div className="text-xl font-semibold md:text-3xl">
+        " The world is one big data problem. - Andrew McAfee"
+      </div>
 
+      
       <div className="flex flex-col items-center justify-center">
         <Image
           src={img_noey}
