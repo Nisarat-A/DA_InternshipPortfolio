@@ -11,8 +11,8 @@ export default function Home() {
         <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
       </h1>
       <div className="text-xl font-semibold md:text-3xl mt-4">
-        developer by choice and designer for fun
-      </div>
+          data by it self is useless . data is only useful if you apply it .
+            </div>
 
       <div className="flex flex-col items-center justify-center mt-8">
         <Image
