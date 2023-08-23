@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import img_noey from './images/img1.jpg'
 import React from 'react'
-import Header from './components/YellowHeader'
+
 
 export default function Home() {
   return (

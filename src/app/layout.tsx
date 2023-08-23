@@ -2,8 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import React from 'react'
-import YellowHeader from './components/YellowHeader'  
-import './images/f1.mp4'
+import YellowHeader from './components/YellowHeader'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -18,22 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <div className="relative">
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src="f1.mp4" type="video/mp4" />
-        {/* Add other video source types if needed */}
-      </video>
-      <div className="relative z-10">
-        <YellowHeader />
-        {/* Other content and components */}
-      </div>
-    </div>
-      <body className={inter.className}>{children}</body>
+      <body>
+        
+        <YellowHeader /> {children}
+      </body>
     </html>
   )
 }
