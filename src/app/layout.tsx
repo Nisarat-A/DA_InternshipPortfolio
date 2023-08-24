@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import React from 'react'
-import YellowHeader from './components/YellowHeader'
+import YellowHeader from './Decoration/Header'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
