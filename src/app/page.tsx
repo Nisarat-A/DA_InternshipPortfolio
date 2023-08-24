@@ -5,6 +5,7 @@ import React from 'react'
 
 import AboutMe from './components/AboutMe'
 import InterestCard from './components/InterestCard'
+import './globals.css'
 
 export default function Home() {
   console.log('Home component is mounted')
@@ -12,10 +13,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <section className="bg-brand-accent text-white py-16">
+          
           <div className="container mx-auto flex items-start p-24">
-            <div className="w-2/3 pr-8 mt-20 md:mt-0">
-              {/* Rest of your content */}
-              <h1 className="mb-1 font-mono text-4xl md:text-6xl pl-4">
+            <div className=" pr-8 mt-20 md:mt-0">
+              <h1 className="mb-3 font-mono text-4xl md:text-6xl pl-4">
                 <span className="uppercase">
                   I&apos;m <br className="block md:hidden" />
                   <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-yellow-500 text-lg md:text-6xl md:leading-none md:h">
