@@ -8,11 +8,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <section className="bg-brand-accent text-white py-16">
-          <div className="container mx-auto flex items-start justify-between p-24">
-            <div className="w-2/3">
+          <div className="container mx-auto flex items-start p-24">
+            <div className="w-2/3 pr-8 mt-20 md:mt-0">
               <h1 className="mb-1 font-mono text-4xl md:text-6xl">
                 <span className="uppercase">
-                  hi, I&apos;m <br className="block md:hidden" />
+                  Hello,I&apos;m <br className="block md:hidden" />
                   <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-yellow-500 text-lg md:text-6xl md:leading-none md:h">
                     Nisarat 👋
                   </span>
@@ -25,14 +25,14 @@ export default function Home() {
                 </span>
               </div>
             </div>
-            <div className="w-1/3 flex justify-center">
+            <div className="w-1/3 flex justify-center mt-4 md:mt-0">
               <Image
                 src={img_noey}
                 alt="Picture of the author"
                 layout="responsive"
-                width={375}
-                height={667}
-                className="mx-auto rounded-full"
+                width={200}
+                height={300}
+                className="mx-auto "
               />
             </div>
           </div>
