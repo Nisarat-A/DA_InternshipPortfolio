@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <section className="bg-brand-accent text-white py-16">
           
-          <div className="container mx-auto flex items-start p-24">
+          <div className="container mx-0 flex items-start p-24">
             <div className=" pr-8 mt-20 md:mt-0">
               <h1 className="mb-3 font-mono text-4xl md:text-6xl pl-4">
                 <span className="uppercase">
